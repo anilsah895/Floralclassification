@@ -28,8 +28,8 @@ def load_data(data_directory):
     return(images, labels)
 
 ROOT_PATH = "." #Denotes the current working directory
-TRAIN_DATA_DIRECTORY = os.path.join(ROOT_PATH, "flower_photos/training")
-TEST_DATA_DIRECTORY = os.path.join(ROOT_PATH, "flower_photos/testing")
+TRAIN_DATA_DIRECTORY = os.path.join(ROOT_PATH, "leafs_photos/training")
+TEST_DATA_DIRECTORY = os.path.join(ROOT_PATH, "leafs_photos/testing")
 
 IMAGES, LABELS = load_data(TRAIN_DATA_DIRECTORY)
 #print IMAGES[:5], LABELS[:5]
